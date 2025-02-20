@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "77611330953",
+    "firebase_url": "https://aptofam-5635c-default-rtdb.firebaseio.com",
+    "project_id": "aptofam-5635c",
+    "storage_bucket": "aptofam-5635c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77611330953:android:928378de1bdc4adc36c558",
+        "android_client_info": {
+          "package_name": "com.example.aptofam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARxmTqLpH9fJfiJgtqmTwL0rjoHQBb7Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

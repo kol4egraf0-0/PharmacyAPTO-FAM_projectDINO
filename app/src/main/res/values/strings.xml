@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">АптоФам</string>
+    <string name="apto_fam_text">АПТО\n<font color='#3399FF'>ФАМ</font></string>
+    <string name="create_account_text"><font color='#3399FF'>Создать</font>\nаккаунт</string>
+</resources>

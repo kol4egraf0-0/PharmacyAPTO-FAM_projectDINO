@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/blue_border" />
+    <item android:drawable="@drawable/bg_linear_filter_white" />
+</selector>
