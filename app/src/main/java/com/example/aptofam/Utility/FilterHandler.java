@@ -1,6 +1,8 @@
 package com.example.aptofam.Utility;
 import android.content.Context;
 import android.content.SharedPreferences;
+
+//Сохранение фильтров
 public class FilterHandler {
     private final SharedPreferences sharedPreferences;
     public FilterHandler(Context context) {

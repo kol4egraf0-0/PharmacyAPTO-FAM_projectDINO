@@ -205,6 +205,8 @@ public class ManagmentCart {
         updateCartInFirebase(listItems);
         listener.onChanged();
     }
+
+    //Восстановить по Id
     private ItemsModel restoreItemById(String id) {
         List<ItemsModel> allItems = getAllItems();
         for (ItemsModel item : allItems) {
@@ -214,7 +216,7 @@ public class ManagmentCart {
         }
         return null;
     }
-
+    //Загурзить с бд локальной
     private List<ItemsModel> getAllItems() {
         List<ItemsModel> allItems = new ArrayList<>();
         allItems.addAll(getItemsBestS());

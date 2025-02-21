@@ -37,7 +37,7 @@ public class ManagmentFavorite {
             itemsBestSReference = FirebaseDatabase.getInstance().getReference("ItemsBestS");
             itemsSaleReference = FirebaseDatabase.getInstance().getReference("ItemsSale");
             othersReference = FirebaseDatabase.getInstance().getReference("Others");
-            syncFavoritesFromFirebase(); // Синхронизация локальных данных с Firebase
+            syncFavoritesFromFirebase();
             setupItemsListeners();
         }
     }
@@ -109,7 +109,7 @@ public class ManagmentFavorite {
         }
     }
 
-
+    //Сердечко появилось/ушло
     public void addOrRemoveFavorite(ItemsModel item) {
         if (userId == null) {
             ToastUtils.showToast((AppCompatActivity) context, "Пользователь не авторизован");

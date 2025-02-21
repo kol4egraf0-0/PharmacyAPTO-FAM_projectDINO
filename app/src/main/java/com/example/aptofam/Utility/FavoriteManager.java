@@ -2,7 +2,7 @@
 
     import java.util.HashSet;
     import java.util.Set;
-
+//Менеджер для Избранного для отображения картнки
     public class FavoriteManager {
         private static FavoriteManager instance;
         private Set<String> favoriteItems;

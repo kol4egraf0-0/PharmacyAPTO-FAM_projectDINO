@@ -15,7 +15,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-
+//Напоминания для Заказа 1 варик
 public class OrderReminderScheduler {
 
     public static void scheduleOrderReminder(Context context, String orderId, long pickupDeadlineMillis) {

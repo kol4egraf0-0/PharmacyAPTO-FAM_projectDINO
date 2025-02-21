@@ -3,7 +3,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.ExpandableListView;
-
+//Кастомный ScrollListView для товара
 public class NoScrollExListView extends ExpandableListView {
 
     public NoScrollExListView(Context context) {

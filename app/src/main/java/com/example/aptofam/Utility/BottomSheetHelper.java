@@ -8,6 +8,8 @@ import android.widget.ImageButton;
 import com.example.aptofam.Helper.OnSortOptionSelectedListener;
 import com.example.aptofam.R;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
+
+//Для сортировки/выход нижней панели
 public class BottomSheetHelper {
     private Context context;
     private Button showBottomSheetButton;

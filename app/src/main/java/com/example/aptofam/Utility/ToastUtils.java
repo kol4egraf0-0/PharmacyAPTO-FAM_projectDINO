@@ -9,7 +9,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.aptofam.R;
-
+//Кастомные уведомление Toast
 public class ToastUtils {
 
     // Статический метод для показа кастомного Toast

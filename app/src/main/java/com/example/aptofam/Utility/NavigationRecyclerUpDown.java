@@ -4,7 +4,7 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
+//Отображение анимации вверх вниз менюшки для RecyclerView для всего экрана
 public class NavigationRecyclerUpDown {
 
     public static void setupRecyclerViewScrollListener(RecyclerView recyclerView, View bottomNav) {

@@ -12,7 +12,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.List;
-
+//Для ViewHolder'ов чтоб пользователь не мог добавлятть в карт если кол-во = 0 в опр аптеке
 public class CartButtonHelper {
 
     public static void setupCartButton(Context context, ImageView addToCartBtn, ItemsModel item, int numberOrder, ManagmentCart managmentCart) {

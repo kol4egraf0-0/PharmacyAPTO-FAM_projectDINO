@@ -7,7 +7,7 @@ import android.text.TextWatcher;
 import android.widget.EditText;
 
 import com.example.aptofam.Activity.SearchActivity;
-
+//Для текста в EditText при поиске
 public class EditTextUtility {
     public static void setupEditTextListener(Activity activity, EditText editText) {
         editText.setInputType(android.text.InputType.TYPE_CLASS_TEXT);

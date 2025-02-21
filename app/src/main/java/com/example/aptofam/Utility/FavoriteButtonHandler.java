@@ -3,7 +3,7 @@ package com.example.aptofam.Utility;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.aptofam.R;
-
+//Могло быть мной использовано для устанвоки кнопки, потом нет
 public class FavoriteButtonHandler {
 
     public void setupFavoriteButton(ImageView favBtn, AppCompatActivity activity, String itemId) {

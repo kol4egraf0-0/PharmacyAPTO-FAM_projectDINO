@@ -3,6 +3,7 @@ package com.example.aptofam.Utility;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.ScrollView;
+//Отображение анимации вверх вниз менюшки для ScrollView для всего экрана
 public class NavigationScrollvUpDown {
     public static void setupScrollViewScrollListener(ScrollView scrollView, View bottomNav) {
         scrollView.getViewTreeObserver().addOnScrollChangedListener(new ViewTreeObserver.OnScrollChangedListener() {

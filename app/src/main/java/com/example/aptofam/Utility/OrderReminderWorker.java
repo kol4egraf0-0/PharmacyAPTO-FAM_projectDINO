@@ -13,7 +13,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//Напоминания для Заказа 3 варик
 public class OrderReminderWorker extends Worker {
 
     public OrderReminderWorker(@NonNull Context context, @NonNull WorkerParameters workerParams) {

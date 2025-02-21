@@ -13,7 +13,7 @@ import androidx.appcompat.widget.AppCompatEditText;
 import androidx.core.content.res.ResourcesCompat;
 
 import com.example.aptofam.R;
-
+//Параоль в EditText Видно/неВидно
 public class SetVisibleParolProfile extends AppCompatEditText {
 
     private Drawable eyeVisibleIcon; // Иконка "глаз открыт"

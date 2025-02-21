@@ -12,7 +12,7 @@ import android.util.Log;
 
 import com.example.aptofam.Activity.HistoryOrderActivity;
 import com.example.aptofam.R;
-
+//Для увед локальных
 public class NotificationHelper {
 
     private static final String TAG = "NotificationHelper";

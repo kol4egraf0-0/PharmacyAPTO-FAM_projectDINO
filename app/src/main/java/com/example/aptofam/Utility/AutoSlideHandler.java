@@ -4,7 +4,7 @@ import android.os.Handler;
 import android.os.SystemClock;
 import androidx.viewpager2.widget.ViewPager2;
 import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback;
-
+//Для автоматического перехода на ViewPager
 public class AutoSlideHandler {
     private final ViewPager2 viewPager;
     private int currentPage = 0;

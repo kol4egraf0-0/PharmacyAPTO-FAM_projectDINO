@@ -9,6 +9,8 @@ import android.util.Log;
 import androidx.annotation.ColorRes;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.core.content.ContextCompat;
+
+//Можно использовать в дальнейшем для панели меню
 public class DotButtonUtility {
     public static void addDotToButton(AppCompatButton button, Context context, @ColorRes int dotColor) {
         button.post(() -> {

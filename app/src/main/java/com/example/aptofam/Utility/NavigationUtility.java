@@ -16,7 +16,7 @@ import com.example.aptofam.Activity.ProfileActivity;
 import com.example.aptofam.Helper.ManagmentCart;
 import com.example.aptofam.Helper.ManagmentFavorite;
 import com.example.aptofam.R;
-
+//Отображение анимации в меню
 public class NavigationUtility {
 
     // Переменная для хранения предыдущей активной кнопки

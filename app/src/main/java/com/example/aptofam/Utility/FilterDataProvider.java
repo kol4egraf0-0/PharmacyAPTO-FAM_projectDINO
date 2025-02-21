@@ -4,6 +4,8 @@ import android.util.Log;
 import com.example.aptofam.Model.ItemsModel;
 import java.util.ArrayList;
 import java.util.List;
+
+//Проверка фильтров
 public class FilterDataProvider {
 
     public static List<ItemsModel> filterItems(List<ItemsModel> items, String minPrice, String maxPrice, String minMg, String maxMg, String minAge, String maxAge, String prescriptionFilter, String countryFilter) {
