@@ -9,22 +9,20 @@ exports.sendOrderNotification = functions.database
         const userId = context.params.userId;
         const orderData = snapshot.val();
 
-        // Получаем FCM токен пользователя
+
         const userRef = admin.database().ref(`/Users/${userId}/fcmToken`);
         const tokenSnapshot = await userRef.once("value");
         const fcmToken = tokenSnapshot.val();
 
         if (!fcmToken) {
-            console.log("FCM токен не найден для пользователя:", userId);
             return null;
         }
 
-        // Создаем сообщение
         const payload = {
             notification: {
                 title: "Новый заказ!",
                 body: `Ваш заказ #${orderData.orderId} успешно создан.`,
-                click_action: "OPEN_ACTIVITY_ORDERS" // Должно совпадать с intent-фильтром в Android
+                click_action: "OPEN_ACTIVITY_ORDERS"
             },
             token: fcmToken
         };
