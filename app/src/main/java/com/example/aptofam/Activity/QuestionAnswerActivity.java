@@ -46,6 +46,7 @@ public class QuestionAnswerActivity extends BaseActivity {
         questionList.add(new QuestionModel("Где взять промокод?", "Промокод можно взять в промокдах в профиле, нажать на него и он автоматически скопируется в буфер обмена."));
         questionList.add(new QuestionModel("Чем отличается хиты продаж от акции?", "Хиты продаж — это популярные товары, а акции — временные предложения со скидками или специальными условиями."));
         questionList.add(new QuestionModel("Почему не приходят уведомление о заказе или других событиях аптеки?", "Возможно, у вас выключены уведомления в настройках или выключен настройки будильника также."));
+        questionList.add(new QuestionModel("Что означает серая кнопка для добавлении в корзину?", "Она означает что товар на данном моменте находится в количестве 0 в выбранной аптеке."));
         // Настройка адаптера
         QuestionAnswerAdapter adapter = new QuestionAnswerAdapter(this, questionList);
         binding.expandableQSListView.setAdapter(adapter);
