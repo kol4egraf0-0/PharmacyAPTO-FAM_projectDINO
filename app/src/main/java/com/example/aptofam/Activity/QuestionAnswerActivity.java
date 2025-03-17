@@ -45,6 +45,7 @@ public class QuestionAnswerActivity extends BaseActivity {
         questionList.add(new QuestionModel("Как много можно использовать промокод?", "Промокод можно применить один в оформлении заказа, но они неограничены в одной покупке, можно этот же прокод применить в последующей покупке"));
         questionList.add(new QuestionModel("Где взять промокод?", "Промокод можно взять в промокдах в профиле, нжать на него и он автоматически скопируется в буфер обмена"));
         questionList.add(new QuestionModel("Чем отличается хиты продаж от акции?", "Хиты продаж — это популярные товары, а акции — временные предложения со скидками или специальными условиями"));
+        questionList.add(new QuestionModel("Что означает серая кнопка для добавлении в корзину?", "Она означает что товар на данном моменте находится в количестве 0 в выбранной аптеке"));
         // Настройка адаптера
         QuestionAnswerAdapter adapter = new QuestionAnswerAdapter(this, questionList);
         binding.expandableQSListView.setAdapter(adapter);
